@@ -1,0 +1,227 @@
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake ..
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+Scanning dependencies of target webRTC_static
+[  3%] Linking C static library libwebRTC_static.a
+[100%] Built target webRTC_static
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+[  3%] Linking C static library libwebRTC.a
+[100%] Built target webRTC_static
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+Scanning dependencies of target webRTC_static
+[  3%] Linking C static library libwebRTC.a
+[100%] Built target webRTC_static
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+Scanning dependencies of target webRTC
+[  1%] Linking C shared library libwebRTC.so
+[ 50%] Built target webRTC
+[100%] Built target webRTC_static
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make install
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/lib/libwebRTC.so
+CMake Error at cmake_install.cmake:47 (file):
+  file INSTALL cannot copy file "/home/lijianglong/C++
+  编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build/libwebRTC.so" to
+  "/usr/lib/libwebRTC.so".
+
+
+Makefile:117: recipe for target 'install' failed
+make: *** [install] Error 1
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ sudo make install
+[sudo] lijianglong 的密码： 
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/lib/libwebRTC.so
+-- Installing: /usr/lib/libwebRTC.a
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+CMake Error at CMakeLists.txt:23 (INSTALL):
+  INSTALL DIRECTORY given no DESTINATION!
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build/CMakeFiles/CMakeOutput.log".
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ sudo make install
+[sudo] lijianglong 的密码： 
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /usr/lib/libwebRTC.so
+-- Up-to-date: /usr/lib/libwebRTC.a
+-- Installing: /usr/webRtcModule/analog_agc.c
+-- Installing: /usr/webRtcModule/complex_bit_reverse.c
+-- Installing: /usr/webRtcModule/complex_fft.c
+-- Installing: /usr/webRtcModule/copy_set_operations.c
+-- Installing: /usr/webRtcModule/cross_correlation.c
+-- Installing: /usr/webRtcModule/digital_agc.c
+-- Installing: /usr/webRtcModule/division_operations.c
+-- Installing: /usr/webRtcModule/dot_product_with_scale.c
+-- Installing: /usr/webRtcModule/downsample_fast.c
+-- Installing: /usr/webRtcModule/energy.c
+-- Installing: /usr/webRtcModule/fft4g.c
+-- Installing: /usr/webRtcModule/get_scaling_square.c
+-- Installing: /usr/webRtcModule/min_max_operations.c
+-- Installing: /usr/webRtcModule/noise_suppression.c
+-- Installing: /usr/webRtcModule/noise_suppression_x.c
+-- Installing: /usr/webRtcModule/ns_core.c
+-- Installing: /usr/webRtcModule/nsx_core.c
+-- Installing: /usr/webRtcModule/nsx_core_c.c
+-- Installing: /usr/webRtcModule/nsx_core_neon_offsets.c
+-- Installing: /usr/webRtcModule/real_fft.c
+-- Installing: /usr/webRtcModule/resample.c
+-- Installing: /usr/webRtcModule/resample_48khz.c
+-- Installing: /usr/webRtcModule/resample_by_2.c
+-- Installing: /usr/webRtcModule/resample_by_2_internal.c
+-- Installing: /usr/webRtcModule/resample_by_2_mips.c
+-- Installing: /usr/webRtcModule/resample_fractional.c
+-- Installing: /usr/webRtcModule/ring_buffer.c
+-- Installing: /usr/webRtcModule/spl_init.c
+-- Installing: /usr/webRtcModule/spl_sqrt.c
+-- Installing: /usr/webRtcModule/spl_sqrt_floor.c
+-- Installing: /usr/webRtcModule/splitting_filter.c
+-- Installing: /usr/webRtcModule/vector_scaling_operations.c
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+CMake Warning (dev) at CMakeLists.txt:12:
+  Syntax Warning in cmake code at column 56
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- this is the webRTC_static OUTPUT_NAME:webRTC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/build
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ make
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ sudo make install
+[ 50%] Built target webRTC_static
+[100%] Built target webRTC
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /usr/lib/libwebRTC.so
+-- Up-to-date: /usr/lib/libwebRTC.a
+-- Installing: /usr/include/webRtcModule/analog_agc.h
+-- Installing: /usr/include/webRtcModule/complex_fft_tables.h
+-- Installing: /usr/include/webRtcModule/cpu_features_wrapper.h
+-- Installing: /usr/include/webRtcModule/defines.h
+-- Installing: /usr/include/webRtcModule/digital_agc.h
+-- Installing: /usr/include/webRtcModule/fft4g.h
+-- Installing: /usr/include/webRtcModule/gain_control.h
+-- Installing: /usr/include/webRtcModule/noise_suppression.h
+-- Installing: /usr/include/webRtcModule/noise_suppression_x.h
+-- Installing: /usr/include/webRtcModule/ns_core.h
+-- Installing: /usr/include/webRtcModule/nsx_core.h
+-- Installing: /usr/include/webRtcModule/nsx_defines.h
+-- Installing: /usr/include/webRtcModule/real_fft.h
+-- Installing: /usr/include/webRtcModule/resample_by_2_internal.h
+-- Installing: /usr/include/webRtcModule/ring_buffer.h
+-- Installing: /usr/include/webRtcModule/signal_processing_library.h
+-- Installing: /usr/include/webRtcModule/spl_inl.h
+-- Installing: /usr/include/webRtcModule/typedefs.h
+-- Installing: /usr/include/webRtcModule/windows_private.h
+lijianglong@lijianglong-Lenovo-M495:~/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMouduild$ 
+
