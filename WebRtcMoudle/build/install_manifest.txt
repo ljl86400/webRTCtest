@@ -19,3 +19,13 @@
 /usr/include/webRtcModule/spl_inl.h
 /usr/include/webRtcModule/typedefs.h
 /usr/include/webRtcModule/windows_private.h
+/usr/include/webRtcModule/aec_core.h
+/usr/include/webRtcModule/aec_core_internal.h
+/usr/include/webRtcModule/aec_rdft.h
+/usr/include/webRtcModule/aec_resampler.h
+/usr/include/webRtcModule/echo_cancellation.h
+/usr/include/webRtcModule/echo_cancellation_internal.h
+/usr/include/webRtcModule/delay_estimator.h
+/usr/include/webRtcModule/delay_estimator_internal.h
+/usr/include/webRtcModule/delay_estimator_wrapper.h
+/usr/include/webRtcModule/ring_buffer.h

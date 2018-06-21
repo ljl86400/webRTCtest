@@ -78,6 +78,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/spl_inl.h"
     "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/typedefs.h"
     "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/windows_private.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/aec_core.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/aec_core_internal.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/aec_rdft.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/aec_resampler.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/echo_cancellation.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/echo_cancellation_internal.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/delay_estimator.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/delay_estimator_internal.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/delay_estimator_wrapper.h"
+    "/home/lijianglong/C++ 编程学习/cmake/webRTC/nsagc/WebRtcMoudle/ring_buffer.h"
     )
 endif()
 

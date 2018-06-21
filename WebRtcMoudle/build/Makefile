@@ -182,6 +182,156 @@ webRTC/fast:
 	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/build
 .PHONY : webRTC/fast
 
+aec_core.o: aec_core.c.o
+
+.PHONY : aec_core.o
+
+# target to build an object file
+aec_core.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core.c.o
+.PHONY : aec_core.c.o
+
+aec_core.i: aec_core.c.i
+
+.PHONY : aec_core.i
+
+# target to preprocess a source file
+aec_core.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core.c.i
+.PHONY : aec_core.c.i
+
+aec_core.s: aec_core.c.s
+
+.PHONY : aec_core.s
+
+# target to generate assembly for a file
+aec_core.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core.c.s
+.PHONY : aec_core.c.s
+
+aec_core_sse2.o: aec_core_sse2.c.o
+
+.PHONY : aec_core_sse2.o
+
+# target to build an object file
+aec_core_sse2.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core_sse2.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core_sse2.c.o
+.PHONY : aec_core_sse2.c.o
+
+aec_core_sse2.i: aec_core_sse2.c.i
+
+.PHONY : aec_core_sse2.i
+
+# target to preprocess a source file
+aec_core_sse2.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core_sse2.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core_sse2.c.i
+.PHONY : aec_core_sse2.c.i
+
+aec_core_sse2.s: aec_core_sse2.c.s
+
+.PHONY : aec_core_sse2.s
+
+# target to generate assembly for a file
+aec_core_sse2.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_core_sse2.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_core_sse2.c.s
+.PHONY : aec_core_sse2.c.s
+
+aec_rdft.o: aec_rdft.c.o
+
+.PHONY : aec_rdft.o
+
+# target to build an object file
+aec_rdft.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft.c.o
+.PHONY : aec_rdft.c.o
+
+aec_rdft.i: aec_rdft.c.i
+
+.PHONY : aec_rdft.i
+
+# target to preprocess a source file
+aec_rdft.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft.c.i
+.PHONY : aec_rdft.c.i
+
+aec_rdft.s: aec_rdft.c.s
+
+.PHONY : aec_rdft.s
+
+# target to generate assembly for a file
+aec_rdft.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft.c.s
+.PHONY : aec_rdft.c.s
+
+aec_rdft_sse2.o: aec_rdft_sse2.c.o
+
+.PHONY : aec_rdft_sse2.o
+
+# target to build an object file
+aec_rdft_sse2.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft_sse2.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft_sse2.c.o
+.PHONY : aec_rdft_sse2.c.o
+
+aec_rdft_sse2.i: aec_rdft_sse2.c.i
+
+.PHONY : aec_rdft_sse2.i
+
+# target to preprocess a source file
+aec_rdft_sse2.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft_sse2.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft_sse2.c.i
+.PHONY : aec_rdft_sse2.c.i
+
+aec_rdft_sse2.s: aec_rdft_sse2.c.s
+
+.PHONY : aec_rdft_sse2.s
+
+# target to generate assembly for a file
+aec_rdft_sse2.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_rdft_sse2.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_rdft_sse2.c.s
+.PHONY : aec_rdft_sse2.c.s
+
+aec_resampler.o: aec_resampler.c.o
+
+.PHONY : aec_resampler.o
+
+# target to build an object file
+aec_resampler.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_resampler.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_resampler.c.o
+.PHONY : aec_resampler.c.o
+
+aec_resampler.i: aec_resampler.c.i
+
+.PHONY : aec_resampler.i
+
+# target to preprocess a source file
+aec_resampler.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_resampler.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_resampler.c.i
+.PHONY : aec_resampler.c.i
+
+aec_resampler.s: aec_resampler.c.s
+
+.PHONY : aec_resampler.s
+
+# target to generate assembly for a file
+aec_resampler.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/aec_resampler.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/aec_resampler.c.s
+.PHONY : aec_resampler.c.s
+
 analog_agc.o: analog_agc.c.o
 
 .PHONY : analog_agc.o
@@ -302,6 +452,36 @@ copy_set_operations.c.s:
 	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/copy_set_operations.c.s
 .PHONY : copy_set_operations.c.s
 
+cpu_features.o: cpu_features.cpp.o
+
+.PHONY : cpu_features.o
+
+# target to build an object file
+cpu_features.cpp.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/cpu_features.cpp.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/cpu_features.cpp.o
+.PHONY : cpu_features.cpp.o
+
+cpu_features.i: cpu_features.cpp.i
+
+.PHONY : cpu_features.i
+
+# target to preprocess a source file
+cpu_features.cpp.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/cpu_features.cpp.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/cpu_features.cpp.i
+.PHONY : cpu_features.cpp.i
+
+cpu_features.s: cpu_features.cpp.s
+
+.PHONY : cpu_features.s
+
+# target to generate assembly for a file
+cpu_features.cpp.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/cpu_features.cpp.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/cpu_features.cpp.s
+.PHONY : cpu_features.cpp.s
+
 cross_correlation.o: cross_correlation.c.o
 
 .PHONY : cross_correlation.o
@@ -331,6 +511,66 @@ cross_correlation.c.s:
 	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/cross_correlation.c.s
 	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/cross_correlation.c.s
 .PHONY : cross_correlation.c.s
+
+delay_estimator.o: delay_estimator.c.o
+
+.PHONY : delay_estimator.o
+
+# target to build an object file
+delay_estimator.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator.c.o
+.PHONY : delay_estimator.c.o
+
+delay_estimator.i: delay_estimator.c.i
+
+.PHONY : delay_estimator.i
+
+# target to preprocess a source file
+delay_estimator.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator.c.i
+.PHONY : delay_estimator.c.i
+
+delay_estimator.s: delay_estimator.c.s
+
+.PHONY : delay_estimator.s
+
+# target to generate assembly for a file
+delay_estimator.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator.c.s
+.PHONY : delay_estimator.c.s
+
+delay_estimator_wrapper.o: delay_estimator_wrapper.c.o
+
+.PHONY : delay_estimator_wrapper.o
+
+# target to build an object file
+delay_estimator_wrapper.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator_wrapper.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator_wrapper.c.o
+.PHONY : delay_estimator_wrapper.c.o
+
+delay_estimator_wrapper.i: delay_estimator_wrapper.c.i
+
+.PHONY : delay_estimator_wrapper.i
+
+# target to preprocess a source file
+delay_estimator_wrapper.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator_wrapper.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator_wrapper.c.i
+.PHONY : delay_estimator_wrapper.c.i
+
+delay_estimator_wrapper.s: delay_estimator_wrapper.c.s
+
+.PHONY : delay_estimator_wrapper.s
+
+# target to generate assembly for a file
+delay_estimator_wrapper.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/delay_estimator_wrapper.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/delay_estimator_wrapper.c.s
+.PHONY : delay_estimator_wrapper.c.s
 
 digital_agc.o: digital_agc.c.o
 
@@ -451,6 +691,36 @@ downsample_fast.c.s:
 	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/downsample_fast.c.s
 	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/downsample_fast.c.s
 .PHONY : downsample_fast.c.s
+
+echo_cancellation.o: echo_cancellation.c.o
+
+.PHONY : echo_cancellation.o
+
+# target to build an object file
+echo_cancellation.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/echo_cancellation.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/echo_cancellation.c.o
+.PHONY : echo_cancellation.c.o
+
+echo_cancellation.i: echo_cancellation.c.i
+
+.PHONY : echo_cancellation.i
+
+# target to preprocess a source file
+echo_cancellation.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/echo_cancellation.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/echo_cancellation.c.i
+.PHONY : echo_cancellation.c.i
+
+echo_cancellation.s: echo_cancellation.c.s
+
+.PHONY : echo_cancellation.s
+
+# target to generate assembly for a file
+echo_cancellation.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/echo_cancellation.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/echo_cancellation.c.s
+.PHONY : echo_cancellation.c.s
 
 energy.o: energy.c.o
 
@@ -751,6 +1021,36 @@ nsx_core_neon_offsets.c.s:
 	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/nsx_core_neon_offsets.c.s
 	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/nsx_core_neon_offsets.c.s
 .PHONY : nsx_core_neon_offsets.c.s
+
+randomization_functions.o: randomization_functions.c.o
+
+.PHONY : randomization_functions.o
+
+# target to build an object file
+randomization_functions.c.o:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/randomization_functions.c.o
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/randomization_functions.c.o
+.PHONY : randomization_functions.c.o
+
+randomization_functions.i: randomization_functions.c.i
+
+.PHONY : randomization_functions.i
+
+# target to preprocess a source file
+randomization_functions.c.i:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/randomization_functions.c.i
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/randomization_functions.c.i
+.PHONY : randomization_functions.c.i
+
+randomization_functions.s: randomization_functions.c.s
+
+.PHONY : randomization_functions.s
+
+# target to generate assembly for a file
+randomization_functions.c.s:
+	$(MAKE) -f CMakeFiles/webRTC_static.dir/build.make CMakeFiles/webRTC_static.dir/randomization_functions.c.s
+	$(MAKE) -f CMakeFiles/webRTC.dir/build.make CMakeFiles/webRTC.dir/randomization_functions.c.s
+.PHONY : randomization_functions.c.s
 
 real_fft.o: real_fft.c.o
 
@@ -1156,6 +1456,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... list_install_components"
 	@echo "... install"
+	@echo "... aec_core.o"
+	@echo "... aec_core.i"
+	@echo "... aec_core.s"
+	@echo "... aec_core_sse2.o"
+	@echo "... aec_core_sse2.i"
+	@echo "... aec_core_sse2.s"
+	@echo "... aec_rdft.o"
+	@echo "... aec_rdft.i"
+	@echo "... aec_rdft.s"
+	@echo "... aec_rdft_sse2.o"
+	@echo "... aec_rdft_sse2.i"
+	@echo "... aec_rdft_sse2.s"
+	@echo "... aec_resampler.o"
+	@echo "... aec_resampler.i"
+	@echo "... aec_resampler.s"
 	@echo "... analog_agc.o"
 	@echo "... analog_agc.i"
 	@echo "... analog_agc.s"
@@ -1168,9 +1483,18 @@ help:
 	@echo "... copy_set_operations.o"
 	@echo "... copy_set_operations.i"
 	@echo "... copy_set_operations.s"
+	@echo "... cpu_features.o"
+	@echo "... cpu_features.i"
+	@echo "... cpu_features.s"
 	@echo "... cross_correlation.o"
 	@echo "... cross_correlation.i"
 	@echo "... cross_correlation.s"
+	@echo "... delay_estimator.o"
+	@echo "... delay_estimator.i"
+	@echo "... delay_estimator.s"
+	@echo "... delay_estimator_wrapper.o"
+	@echo "... delay_estimator_wrapper.i"
+	@echo "... delay_estimator_wrapper.s"
 	@echo "... digital_agc.o"
 	@echo "... digital_agc.i"
 	@echo "... digital_agc.s"
@@ -1183,6 +1507,9 @@ help:
 	@echo "... downsample_fast.o"
 	@echo "... downsample_fast.i"
 	@echo "... downsample_fast.s"
+	@echo "... echo_cancellation.o"
+	@echo "... echo_cancellation.i"
+	@echo "... echo_cancellation.s"
 	@echo "... energy.o"
 	@echo "... energy.i"
 	@echo "... energy.s"
@@ -1213,6 +1540,9 @@ help:
 	@echo "... nsx_core_neon_offsets.o"
 	@echo "... nsx_core_neon_offsets.i"
 	@echo "... nsx_core_neon_offsets.s"
+	@echo "... randomization_functions.o"
+	@echo "... randomization_functions.i"
+	@echo "... randomization_functions.s"
 	@echo "... real_fft.o"
 	@echo "... real_fft.i"
 	@echo "... real_fft.s"

@@ -27,6 +27,7 @@
 #define WEBRTC_SPL_WORD32_MAX       (int32_t)0x7fffffff
 #define WEBRTC_SPL_WORD32_MIN       (int32_t)0x80000000
 #define WEBRTC_SPL_MAX_LPC_ORDER    14
+#define WEBRTC_SPL_MAX_SEED_USED    0x80000000
 #define WEBRTC_SPL_MIN(A, B)        (A < B ? A : B)  // Get min value
 #define WEBRTC_SPL_MAX(A, B)        (A > B ? A : B)  // Get max value
 // TODO(kma/bjorn): For the next two macros, investigate how to correct the code
